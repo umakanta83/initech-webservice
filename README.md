@@ -38,7 +38,7 @@ It doesn't support phone number separated by space " " like 123 567 8905 or with
 
 5.If it is valid phone number it masks the middle three digits with provided masking character
 For eg:if phone number is "1234567890", after masking the new masking string will be "123***7890"
-If phone number is "123-567-8905" then the new masked string will be "123-***-8905".
+If phone number is "123-567-8905" then the new masked string will be "123-###-8905".
 
 6.This utility make sure the input string is not lost , hence if it is not valid email address or not valid phone number then 
 it will return the input string
