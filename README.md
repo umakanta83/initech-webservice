@@ -26,19 +26,24 @@ This Utility does the following steps.
 For Eg: If your input is "umakanta@gmail.com" and masking char is "*" then it will mask to "u******a@gmail.com".
 2. If it is 2 char email Id then it masks like below
 For Eg: If your input is "uk@gmail.com" and masking char is "*" then it will mask to "**@gmail.com".
+
 3.If it is 1 char email Id then it masks like below
 For Eg: If your input is "u@gmail.com" and masking char is "*" then it will mask to "*@gmail.com".
+
 4.It also check input string is valid phone number or not. It only supports phone number in below formats 
 Format 1: 1234567890 (phone number with country code)
 Format 2:234567890(phone number with out country code)
 Format 3:123-567-8905(phone number with '-' separator)
-It doesn't support phone number separated by space " " like 123 567 8905 or with extension 
+It doesn't support phone number separated by space " " like 123 567 8905 or with extension.
+
 5.If it is valid phone number it masks the middle three digits with provided masking character
 For eg:if phone number is "1234567890", after masking the new masking string will be "123***7890"
 If phone number is "123-567-8905" then the new masked string will be "123-***-8905".
+
 6.This utility make sure the input string is not lost , hence if it is not valid email address or not valid phone number then 
 it will return the input string
-7.
+
+
 
 
 
